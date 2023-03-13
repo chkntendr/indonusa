@@ -10,4 +10,9 @@ class PickupController extends Controller
     public function index() {
         return view('operator.pickup');
     }
+
+    // Pickup Data
+    public function pickupData() {
+        
+    }
 }

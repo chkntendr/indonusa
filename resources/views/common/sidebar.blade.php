@@ -36,10 +36,10 @@
         <div id="collapseAdmin" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Menu:</h6>
-                <a class="collapse-item" href="buttons.html">Cek Data</a>
-                <a class="collapse-item" href="buttons.html">Tambah Harga</a>
-                <a class="collapse-item" href="buttons.html">Tambah User</a>
-                <a class="collapse-item" href="cards.html">Tambah Client</a>
+                <a class="collapse-item" href="{{ url('/admin/data') }}">Cek Data</a>
+                <a class="collapse-item" href="{{ url('/admin/harga') }}">Data Harga</a>
+                <a class="collapse-item" href="{{ url('/admin/users') }}">Data Pengguna</a>
+                <a class="collapse-item" href="{{ url('/admin/clients') }}">Data Klien</a>
             </div>
         </div>
     </li>
